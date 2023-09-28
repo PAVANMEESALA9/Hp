@@ -1,0 +1,87 @@
+{
+  "config": "{\"version\":\"5.47\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.48\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY23SU08",
+            "path": "BaseThemes/CY23SU08.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"71f5d11d01709c88da63\",\"layouts\":[{\"id\":0,\"position\":{\"x\":13.170731707317072,\"y\":77.5609756097561,\"z\":2000,\"width\":340.9756097560975,\"height\":159.5121951219512,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA (1).email_lvl1\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA (1)\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"email_lvl1\"},\"Name\":\"MOCK_DATA (1).email_lvl1\",\"NativeReferenceName\":\"email_lvl1\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Email_lvl1'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'First Name'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 159.51,
+          "width": 340.98,
+          "x": 13.17,
+          "y": 77.56,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"a75b0377b583c508a8dc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":370.2439024390244,\"y\":77.5609756097561,\"z\":1000,\"width\":338.0487804878049,\"height\":159.5121951219512,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA (1).email_lvl2\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA (1)\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"email_lvl2\"},\"Name\":\"MOCK_DATA (1).email_lvl2\",\"NativeReferenceName\":\"email_lvl2\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Email_lvl2'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'First Name'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 159.51,
+          "width": 338.05,
+          "x": 370.24,
+          "y": 77.56,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"ae4dac233b713b17bab2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1072.6829268292684,\"y\":112.6829268292683,\"z\":5000,\"width\":194.6341463414634,\"height\":68.78048780487805,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"FlowVisual_C29F1DCC_81F5_4973_94AD_0517D44CC06A\",\"projections\":{\"table\":[{\"queryRef\":\"MOCK_DATA (1).first_name\"},{\"queryRef\":\"MOCK_DATA (1).last_name\"},{\"queryRef\":\"MOCK_DATA (1).email\"},{\"queryRef\":\"MOCK_DATA (1).email_lvl1\"},{\"queryRef\":\"MOCK_DATA (1).email_lvl2\"},{\"queryRef\":\"MOCK_DATA (1).email_lvl3\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA (1)\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"email_lvl1\"},\"Name\":\"MOCK_DATA (1).email_lvl1\",\"NativeReferenceName\":\"email_lvl1\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"email_lvl2\"},\"Name\":\"MOCK_DATA (1).email_lvl2\",\"NativeReferenceName\":\"email_lvl2\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"email_lvl3\"},\"Name\":\"MOCK_DATA (1).email_lvl3\",\"NativeReferenceName\":\"email_lvl3\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"first_name\"},\"Name\":\"MOCK_DATA (1).first_name\",\"NativeReferenceName\":\"first_name\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"last_name\"},\"Name\":\"MOCK_DATA (1).last_name\",\"NativeReferenceName\":\"last_name\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"email\"},\"Name\":\"MOCK_DATA (1).email\",\"NativeReferenceName\":\"email\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"flowInfo\":[{\"properties\":{\"FlowId\":{\"expr\":{\"Literal\":{\"Value\":\"'/providers/Microsoft.ProcessSimple/environments/Default-dc16ba3a-f783-4879-8ca5-aa44705e76fe/flows/2bc37683-065e-40e0-88c3-798da068737c'\"}}},\"ManagementUri\":{\"expr\":{\"Literal\":{\"Value\":\"'https://india.api.flow.microsoft.com/providers/Microsoft.ProcessSimple'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 68.78,
+          "width": 194.63,
+          "x": 1072.68,
+          "y": 112.68,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"b79ac78c783449609703\",\"layouts\":[{\"id\":0,\"position\":{\"x\":724.390243902439,\"y\":77.5609756097561,\"z\":3000,\"width\":338.0487804878049,\"height\":159.5121951219512,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA (1).email_lvl3\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA (1)\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"email_lvl3\"},\"Name\":\"MOCK_DATA (1).email_lvl3\",\"NativeReferenceName\":\"email_lvl3\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Email_lvl3'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'First Name'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 159.51,
+          "width": 338.05,
+          "x": 724.39,
+          "y": 77.56,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"e20aed508b5d4e566762\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":4000,\"width\":1280.4878048780488,\"height\":51.21951219512195,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}}],\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'DEMO'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"18D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"id\":\"default\"}}]}}}",
+          "filters": "[]",
+          "height": 51.22,
+          "width": 1280.49,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"f1aac31449cd19174670\",\"layouts\":[{\"id\":0,\"position\":{\"x\":13.170731707317072,\"y\":247.3170731707317,\"z\":0,\"width\":1254.1463414634145,\"height\":472.6829268292683,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"MOCK_DATA (1).first_name\"},{\"queryRef\":\"MOCK_DATA (1).last_name\"},{\"queryRef\":\"MOCK_DATA (1).email\"},{\"queryRef\":\"MOCK_DATA (1).email_lvl1\"},{\"queryRef\":\"MOCK_DATA (1).email_lvl2\"},{\"queryRef\":\"MOCK_DATA (1).email_lvl3\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"MOCK_DATA (1)\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"first_name\"},\"Name\":\"MOCK_DATA (1).first_name\",\"NativeReferenceName\":\"First_name\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"last_name\"},\"Name\":\"MOCK_DATA (1).last_name\",\"NativeReferenceName\":\"Last_name\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"email_lvl1\"},\"Name\":\"MOCK_DATA (1).email_lvl1\",\"NativeReferenceName\":\"Email_lvl1\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"email_lvl2\"},\"Name\":\"MOCK_DATA (1).email_lvl2\",\"NativeReferenceName\":\"Email_lvl2\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"email_lvl3\"},\"Name\":\"MOCK_DATA (1).email_lvl3\",\"NativeReferenceName\":\"Email_lvl3\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"email\"},\"Name\":\"MOCK_DATA (1).email\",\"NativeReferenceName\":\"Email\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"email\"}}}]},\"columnProperties\":{\"MOCK_DATA (1).email_lvl1\":{\"displayName\":\"Email_lvl1\"},\"MOCK_DATA (1).email_lvl2\":{\"displayName\":\"Email_lvl2\"},\"MOCK_DATA (1).email_lvl3\":{\"displayName\":\"Email_lvl3\"},\"MOCK_DATA (1).first_name\":{\"displayName\":\"First_name\"},\"MOCK_DATA (1).last_name\":{\"displayName\":\"Last_name\"},\"MOCK_DATA (1).email\":{\"displayName\":\"Email\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"129.35368394569193D\"}}}},\"selector\":{\"metadata\":\"MOCK_DATA (1).first_name\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"150.39580022736237D\"}}}},\"selector\":{\"metadata\":\"MOCK_DATA (1).last_name\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"193.34146998936185D\"}}}},\"selector\":{\"metadata\":\"MOCK_DATA (1).email_lvl1\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"296.58536166417775D\"}}}},\"selector\":{\"metadata\":\"MOCK_DATA (1).email\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"253.60976111478266D\"}}}},\"selector\":{\"metadata\":\"MOCK_DATA (1).email_lvl3\"}}],\"values\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}}}}],\"columnHeaders\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.6}}}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 472.68,
+          "width": 1254.15,
+          "x": 13.17,
+          "y": 247.32,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

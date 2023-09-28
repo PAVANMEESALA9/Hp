@@ -1,0 +1,504 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"MOCK_DATA (1)\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.121.942.0 (23.09)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Entities": {
+              "mock_data_1.email": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MOCK_DATA (1)",
+                    "ConceptualProperty": "email"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Email": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "mock_data_1.email_lvl1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MOCK_DATA (1)",
+                    "ConceptualProperty": "email_lvl1"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Email_lvl1": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "mock_data_1.email_lvl2": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MOCK_DATA (1)",
+                    "ConceptualProperty": "email_lvl2"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Email_lvl2": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "mock_data_1.email_lvl3": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MOCK_DATA (1)",
+                    "ConceptualProperty": "email_lvl3"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Email_lvl3": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "mock_data_1.first_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MOCK_DATA (1)",
+                    "ConceptualProperty": "first_name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "First_name": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "mock_data_1.last_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MOCK_DATA (1)",
+                    "ConceptualProperty": "last_name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Last_name": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-IN",
+    "tables": [
+      {
+        "name": "MOCK_DATA (1)",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d750fd8a-b829-4b6c-907d-19e64f6d48cf",
+            "sourceColumn": "id",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "first_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "25878ff7-3ce1-4da8-94f7-0c66eeafc4e7",
+            "sourceColumn": "first_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "last_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d3429f8a-2ac6-4bda-b109-bf6e349f9175",
+            "sourceColumn": "last_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "email",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8500a4f9-e49a-4081-a1cf-6bc3165cc941",
+            "sourceColumn": "email",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "email_lvl3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b01a5164-b2a3-4f16-b1ff-a1e23d1cbc7b",
+            "sourceColumn": "email_lvl3",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "email_lvl2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c4bd37bc-7aa6-4b93-8297-1a0c9a8d2212",
+            "sourceColumn": "email_lvl2",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "email_lvl1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "42a73f52-89bc-4776-ab03-e7211d2d9490",
+            "sourceColumn": "email_lvl1",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "3022b39d-7858-4763-9e5a-179cefc210d9",
+        "partitions": [
+          {
+            "name": "MOCK_DATA (1)",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\PavanM\\Downloads\\HierarchyWorkBook_PBISample.xlsx\"), null, true),",
+                "    #\"MOCK_DATA (1)_Sheet\" = Source{[Item=\"MOCK_DATA (1)\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"MOCK_DATA (1)_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"id\", Int64.Type}, {\"first_name\", type text}, {\"last_name\", type text}, {\"email\", type text}, {\"email_lvl3\", type text}, {\"email_lvl2\", type text}, {\"email_lvl1\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_417863a4-8cbe-44c3-bf08-c5e8442321ae",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "f9e5f777-3399-488f-b95f-d40550e6d5c5",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "2d520faf-8426-4514-9713-ec83a21af0cd",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "09fcbb7a-18fe-4b0c-8b84-7836391b9fa5",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "631970ed-46fa-4846-b51e-79c5c2eb5fa3",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "2a955fe5-ca99-4292-9297-ba63ce5809bc",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "45750b7f-f2dc-4f9f-9f96-a3499a283dbc",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "a8a7a112-480a-475a-a093-d2dc4844ff5e",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "ca032bec-b77c-4546-8e7a-38008e44403c",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "39d2963c-f444-4b16-b34c-bb1a98cc4426",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "c1eb923d-7fa1-4a4e-b5f2-7f77d173865f",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "3e7c38a9-8837-45e5-b360-d1248b7727e6",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "7f121e7d-18c2-45b4-b199-e2677ca4d73c"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "cb0bb619-f41f-4c73-8cd1-da52cf456022",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_417863a4-8cbe-44c3-bf08-c5e8442321ae",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
